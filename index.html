@@ -9,6 +9,11 @@
 
     <link rel="stylesheet" href="assets/styles/main.css">
 
+    <!-- OWL CSS -->
+    <link rel="stylesheet" href="./assets/styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/styles/owl/owl.theme.default.min.css">
+    <!--  -->
+
     <title>Petflix</title>
 
 </head>
@@ -32,8 +37,8 @@
 
     <main>
         <div class="destaque">
-
             <div class="container">
+
                 <h3 class="titulo">
                         <img src="https://www.championcat.cl/catflix/wp-content/uploads/2020/12/logo-catsa-papel.png" 
                             alt="La Catsa de Papel">
@@ -50,11 +55,43 @@
                         MAIS INFORMAÇÕES
                     </button>      
                 </div>
-            </div>
 
+            </div>
         </div>
     </main>
 
+    <div class="carrossel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="./assets/images/card-Dark.jpg" alt="Darkat">
+                <img class="titulo-filme" src="./assets/images/card-Dark.png">
+            </div>
+             <div class="item">
+                 <img class="box-filme" src="./assets/images/card-breakingb.jpg" alt="Breaking cat">
+                 <img class="titulo-filme" src="./assets/images/card-breakingb.png">
+             </div>
+             <div class="item">
+                 <img class="box-filme" src="./assets/images/card-CatWars.jpg" alt="Cat Wars">
+                 <img class="titulo-filme" src="./assets/images/card-catwars.png">
+             </div>
+             <div class="item">
+                 <img class="box-filme" src="./assets/images/card-GOT.jpg" alt="Cat of Thrones">
+                 <img class="titulo-filme" src="./assets/images/card-got.png">
+             </div>
+            <div class="item">
+                <img class="box-filme" src="./assets/images/card-titanic.jpg" alt="Titanicat">
+                <img class="titulo-filme" src="./assets/images/card-titanic.png">
+            </div>
+            <div class="item">
+                <img class="box-filme filler" src="./assets/images/card-Stranger.jpg" alt="Stranger cats">
+                <img class="titulo-filme" src="./assets/images/card-Stranger.png">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/d523d30d0c.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/owl/jquery.min.js"></script>
+    <script src="./assets/js/owl/owl.carousel.min.js"></script>
+     <script src="./assets/js/owl/setup.js"></script>
 </body>
 </html>
