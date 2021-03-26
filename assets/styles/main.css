@@ -1,3 +1,4 @@
+/***    GERAL    ***/
 :root {
     --vermelho: #E50914;
     --preto: #141414;
@@ -10,9 +11,11 @@
     padding: 0;
 }
 
+/***    BASE    ***/
 body {
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: #fff;
 }
 
 header .container {
@@ -37,4 +40,26 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/***    FILME EM DESTAQUE    ***/
+.destaque {
+    font-size: 16px;
+    background: 
+        linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)100%),
+        url('../images/catsa-capa.png');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.destaque .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo img {
+    max-width: 90%;
 }
